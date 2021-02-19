@@ -1,0 +1,30 @@
+{
+  "name": "cms",
+  "version": "1.0.0",
+  "description": "",
+  "main": "dist/bundle.js",
+  "mode": "dist/bundle.js",
+  "scripts": {
+    "build": "webpack",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/BruceLee666666/cms.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/BruceLee666666/cms/issues"
+  },
+  "homepage": "https://github.com/BruceLee666666/cms#readme",
+  "devDependencies": {
+    "@babel/core": "^7.12.17",
+    "@babel/plugin-transform-runtime": "^7.12.17",
+    "@babel/preset-env": "^7.12.17",
+    "@babel/runtime-corejs3": "^7.12.18",
+    "babel-loader": "^8.2.2",
+    "webpack": "^5.23.0",
+    "webpack-cli": "^4.5.0"
+  }
+}
